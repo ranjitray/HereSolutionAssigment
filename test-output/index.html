@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\sangr\AppData\Local\Temp\testng-eclipse-910739884\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.TestCase.MapTest" class="method navigator-link" hash-for-method="ClickOnAndroidLite">ClickOnAndroidLite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.TestCase.MapTest" class="method navigator-link" hash-for-method="ClickOnJSLink">ClickOnJSLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.TestCase.MapTest" class="method navigator-link" hash-for-method="ClickOnMapSDK4AndroidPremium">ClickOnMapSDK4AndroidPremium</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.TestCase.MapTest" class="method navigator-link" hash-for-method="ClickOnMapSDK4AndroidStarter">ClickOnMapSDK4AndroidStarter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.TestCase.MapTest" class="method navigator-link" hash-for-method="ClickOnMapSDK4iOSLite">ClickOnMapSDK4iOSLite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.TestCase.MapTest" class="method navigator-link" hash-for-method="ClickOnMapSDK4iOSPremium">ClickOnMapSDK4iOSPremium</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.TestCase.MapTest" class="method navigator-link" hash-for-method="ClickOnMapSDK4iOSStarter">ClickOnMapSDK4iOSStarter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.TestCase.MapTest" class="method navigator-link" hash-for-method="VerifyMapJSHeaderText">VerifyMapJSHeaderText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.TestCase.MapTest" class="method navigator-link" hash-for-method="VerifyMapJSTitile">VerifyMapJSTitile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.TestCase.MapTest" class="method navigator-link" hash-for-method="VerifyMapSDK4AndroidHeaderText">VerifyMapSDK4AndroidHeaderText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.TestCase.MapTest" class="method navigator-link" hash-for-method="VerifyMapSDK4AndroidLiteTitle">VerifyMapSDK4AndroidLiteTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.TestCase.MapTest" class="method navigator-link" hash-for-method="VerifyMapSDK4AndroidPremiumHeaderText">VerifyMapSDK4AndroidPremiumHeaderText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.TestCase.MapTest" class="method navigator-link" hash-for-method="VerifyMapSDK4AndroidPremiumTitle">VerifyMapSDK4AndroidPremiumTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.TestCase.MapTest" class="method navigator-link" hash-for-method="VerifyMapSDK4AndroidStarterHeaderText">VerifyMapSDK4AndroidStarterHeaderText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.TestCase.MapTest" class="method navigator-link" hash-for-method="VerifyMapSDK4AndroidStarterTitle">VerifyMapSDK4AndroidStarterTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.TestCase.MapTest" class="method navigator-link" hash-for-method="VerifyMapSDK4iOSLiteHeaderText">VerifyMapSDK4iOSLiteHeaderText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.TestCase.MapTest" class="method navigator-link" hash-for-method="VerifyMapSDK4iOSLiteTitle">VerifyMapSDK4iOSLiteTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.TestCase.MapTest" class="method navigator-link" hash-for-method="VerifyMapSDK4iOSPremiumHeaderText">VerifyMapSDK4iOSPremiumHeaderText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.TestCase.MapTest" class="method navigator-link" hash-for-method="VerifyMapSDK4iOSPremiumTitle">VerifyMapSDK4iOSPremiumTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.TestCase.MapTest" class="method navigator-link" hash-for-method="VerifyMapSDK4iOSStarterHeaderText">VerifyMapSDK4iOSStarterHeaderText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.qa.TestCase.MapTest" class="method navigator-link" hash-for-method="VerifyMapSDK4iOSStarterTitle">VerifyMapSDK4iOSStarterTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.TestCase.MapTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnAndroidLite">
+                  </a> <!-- ClickOnAndroidLite -->
+                  <span class="method-name">ClickOnAndroidLite</span>
+                  <em>
+(Clicking on SDK for Android Lite Edition)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnJSLink">
+                  </a> <!-- ClickOnJSLink -->
+                  <span class="method-name">ClickOnJSLink</span>
+                  <em>
+(Click on JS link under Intercative Maps section)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnMapSDK4AndroidPremium">
+                  </a> <!-- ClickOnMapSDK4AndroidPremium -->
+                  <span class="method-name">ClickOnMapSDK4AndroidPremium</span>
+                  <em>
+( Click on SDK for Android (Premium Edition))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnMapSDK4AndroidStarter">
+                  </a> <!-- ClickOnMapSDK4AndroidStarter -->
+                  <span class="method-name">ClickOnMapSDK4AndroidStarter</span>
+                  <em>
+( Click on Andriod SDK Starter Edition )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnMapSDK4iOSLite">
+                  </a> <!-- ClickOnMapSDK4iOSLite -->
+                  <span class="method-name">ClickOnMapSDK4iOSLite</span>
+                  <em>
+( Click on iOS SDK Lite Edition )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnMapSDK4iOSPremium">
+                  </a> <!-- ClickOnMapSDK4iOSPremium -->
+                  <span class="method-name">ClickOnMapSDK4iOSPremium</span>
+                  <em>
+( Click on iOS SDK Premium Edition )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickOnMapSDK4iOSStarter">
+                  </a> <!-- ClickOnMapSDK4iOSStarter -->
+                  <span class="method-name">ClickOnMapSDK4iOSStarter</span>
+                  <em>
+( Click on iOS SDK Starter Edition )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyMapJSHeaderText">
+                  </a> <!-- VerifyMapJSHeaderText -->
+                  <span class="method-name">VerifyMapJSHeaderText</span>
+                  <em>
+(Verify page header Text aftet clicking on JS )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyMapJSTitile">
+                  </a> <!-- VerifyMapJSTitile -->
+                  <span class="method-name">VerifyMapJSTitile</span>
+                  <em>
+(Verify page title after clicking on JS link under Inteeractive Maps)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyMapSDK4AndroidHeaderText">
+                  </a> <!-- VerifyMapSDK4AndroidHeaderText -->
+                  <span class="method-name">VerifyMapSDK4AndroidHeaderText</span>
+                  <em>
+(Verify header Text - SDK for Android Lite Edition )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyMapSDK4AndroidLiteTitle">
+                  </a> <!-- VerifyMapSDK4AndroidLiteTitle -->
+                  <span class="method-name">VerifyMapSDK4AndroidLiteTitle</span>
+                  <em>
+(Verify page title --Map SDK for Android Lite Edition)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyMapSDK4AndroidPremiumHeaderText">
+                  </a> <!-- VerifyMapSDK4AndroidPremiumHeaderText -->
+                  <span class="method-name">VerifyMapSDK4AndroidPremiumHeaderText</span>
+                  <em>
+(Verify the Header Text of SDK Andriod Premium Edition )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyMapSDK4AndroidPremiumTitle">
+                  </a> <!-- VerifyMapSDK4AndroidPremiumTitle -->
+                  <span class="method-name">VerifyMapSDK4AndroidPremiumTitle</span>
+                  <em>
+(Verify the title of SDK Andriod Premium Edition )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyMapSDK4AndroidStarterHeaderText">
+                  </a> <!-- VerifyMapSDK4AndroidStarterHeaderText -->
+                  <span class="method-name">VerifyMapSDK4AndroidStarterHeaderText</span>
+                  <em>
+(Verify header text of SDK Andriod Starter )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyMapSDK4AndroidStarterTitle">
+                  </a> <!-- VerifyMapSDK4AndroidStarterTitle -->
+                  <span class="method-name">VerifyMapSDK4AndroidStarterTitle</span>
+                  <em>
+(Verify the title of SDK Andriod Starter Edition )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyMapSDK4iOSLiteHeaderText">
+                  </a> <!-- VerifyMapSDK4iOSLiteHeaderText -->
+                  <span class="method-name">VerifyMapSDK4iOSLiteHeaderText</span>
+                  <em>
+(Verify the Header Text of SDK iOS Lite Edition )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyMapSDK4iOSLiteTitle">
+                  </a> <!-- VerifyMapSDK4iOSLiteTitle -->
+                  <span class="method-name">VerifyMapSDK4iOSLiteTitle</span>
+                  <em>
+(Verify the title of SDK iOS Lite Edition )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyMapSDK4iOSPremiumHeaderText">
+                  </a> <!-- VerifyMapSDK4iOSPremiumHeaderText -->
+                  <span class="method-name">VerifyMapSDK4iOSPremiumHeaderText</span>
+                  <em>
+(Verify the Header Text of SDK iOS Premium Edition )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyMapSDK4iOSPremiumTitle">
+                  </a> <!-- VerifyMapSDK4iOSPremiumTitle -->
+                  <span class="method-name">VerifyMapSDK4iOSPremiumTitle</span>
+                  <em>
+(Verify the title of SDK iOS Premium Edition )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyMapSDK4iOSStarterHeaderText">
+                  </a> <!-- VerifyMapSDK4iOSStarterHeaderText -->
+                  <span class="method-name">VerifyMapSDK4iOSStarterHeaderText</span>
+                  <em>
+(Verify the Header Text of SDK iOS Starter Edition )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyMapSDK4iOSStarterTitle">
+                  </a> <!-- VerifyMapSDK4iOSStarterTitle -->
+                  <span class="method-name">VerifyMapSDK4iOSStarterTitle</span>
+                  <em>
+(Verify the title of SDK iOS Starter Edition )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sangr\AppData\Local\Temp\testng-eclipse-910739884\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.TestCase.MapTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ClickOnAndroidLite')
+data.setCell(0, 2, 'com.qa.TestCase.MapTest')
+data.setCell(0, 3, 7470);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ClickOnMapSDK4iOSStarter')
+data.setCell(1, 2, 'com.qa.TestCase.MapTest')
+data.setCell(1, 3, 5772);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ClickOnMapSDK4AndroidPremium')
+data.setCell(2, 2, 'com.qa.TestCase.MapTest')
+data.setCell(2, 3, 5691);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ClickOnMapSDK4AndroidStarter')
+data.setCell(3, 2, 'com.qa.TestCase.MapTest')
+data.setCell(3, 3, 5401);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ClickOnMapSDK4iOSPremium')
+data.setCell(4, 2, 'com.qa.TestCase.MapTest')
+data.setCell(4, 3, 5368);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ClickOnMapSDK4iOSLite')
+data.setCell(5, 2, 'com.qa.TestCase.MapTest')
+data.setCell(5, 3, 5330);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ClickOnJSLink')
+data.setCell(6, 2, 'com.qa.TestCase.MapTest')
+data.setCell(6, 3, 3150);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'VerifyMapSDK4iOSLiteTitle')
+data.setCell(7, 2, 'com.qa.TestCase.MapTest')
+data.setCell(7, 3, 1093);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'VerifyMapSDK4iOSStarterTitle')
+data.setCell(8, 2, 'com.qa.TestCase.MapTest')
+data.setCell(8, 3, 1064);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'VerifyMapSDK4iOSPremiumTitle')
+data.setCell(9, 2, 'com.qa.TestCase.MapTest')
+data.setCell(9, 3, 1024);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'VerifyMapJSHeaderText')
+data.setCell(10, 2, 'com.qa.TestCase.MapTest')
+data.setCell(10, 3, 184);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'VerifyMapJSTitile')
+data.setCell(11, 2, 'com.qa.TestCase.MapTest')
+data.setCell(11, 3, 60);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'VerifyMapSDK4iOSPremiumHeaderText')
+data.setCell(12, 2, 'com.qa.TestCase.MapTest')
+data.setCell(12, 3, 47);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'VerifyMapSDK4AndroidHeaderText')
+data.setCell(13, 2, 'com.qa.TestCase.MapTest')
+data.setCell(13, 3, 41);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'VerifyMapSDK4AndroidPremiumHeaderText')
+data.setCell(14, 2, 'com.qa.TestCase.MapTest')
+data.setCell(14, 3, 37);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'VerifyMapSDK4AndroidStarterHeaderText')
+data.setCell(15, 2, 'com.qa.TestCase.MapTest')
+data.setCell(15, 3, 37);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'VerifyMapSDK4iOSStarterHeaderText')
+data.setCell(16, 2, 'com.qa.TestCase.MapTest')
+data.setCell(16, 3, 37);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'VerifyMapSDK4iOSLiteHeaderText')
+data.setCell(17, 2, 'com.qa.TestCase.MapTest')
+data.setCell(17, 3, 36);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'VerifyMapSDK4AndroidLiteTitle')
+data.setCell(18, 2, 'com.qa.TestCase.MapTest')
+data.setCell(18, 3, 10);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'VerifyMapSDK4AndroidPremiumTitle')
+data.setCell(19, 2, 'com.qa.TestCase.MapTest')
+data.setCell(19, 3, 5);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'VerifyMapSDK4AndroidStarterTitle')
+data.setCell(20, 2, 'com.qa.TestCase.MapTest')
+data.setCell(20, 3, 5);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 41 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ClickOnJSLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">*******Screenshot captured for JSlinkClick*********</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ClickOnMapSDK4iOSStarter</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">*******Screenshot captured for Mouse Hover and Click iOS SDK Starter Edition*********</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ClickOnMapSDK4AndroidPremium</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">*******Screenshot captured for Mouse Hover and Click Android Premium Edition*********</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ClickOnMapSDK4AndroidStarter</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">*******Screenshot captured for Mouse Hover and Click Android Starter Edition*********</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ClickOnAndroidLite</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">*******Screenshot captured for Mouse Hover and Click Android Lite Edition*********</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ClickOnMapSDK4iOSPremium</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">*******Screenshot captured for Mouse Hover and Click iOS SDK Premium Edition*********</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ClickOnMapSDK4iOSLite</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">*******Screenshot captured for Mouse Hover and Click iOS SDK Lite Edition*********</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.TestCase.MapTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">ReportSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-suite before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">127 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">ClickOnJSLink</span>
+                <span class="method-start">13446 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyMapJSTitile</span>
+                <span class="method-start">16600 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyMapJSHeaderText</span>
+                <span class="method-start">16662 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ClickOnAndroidLite</span>
+                <span class="method-start">16847 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyMapSDK4AndroidLiteTitle</span>
+                <span class="method-start">24319 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyMapSDK4AndroidHeaderText</span>
+                <span class="method-start">24330 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ClickOnMapSDK4AndroidPremium</span>
+                <span class="method-start">24372 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyMapSDK4AndroidPremiumTitle</span>
+                <span class="method-start">30064 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyMapSDK4AndroidPremiumHeaderText</span>
+                <span class="method-start">30070 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ClickOnMapSDK4AndroidStarter</span>
+                <span class="method-start">30108 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyMapSDK4AndroidStarterTitle</span>
+                <span class="method-start">35510 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyMapSDK4AndroidStarterHeaderText</span>
+                <span class="method-start">35516 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ClickOnMapSDK4iOSLite</span>
+                <span class="method-start">35554 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyMapSDK4iOSLiteTitle</span>
+                <span class="method-start">40884 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyMapSDK4iOSLiteHeaderText</span>
+                <span class="method-start">41978 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ClickOnMapSDK4iOSPremium</span>
+                <span class="method-start">42014 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyMapSDK4iOSPremiumTitle</span>
+                <span class="method-start">47383 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyMapSDK4iOSPremiumHeaderText</span>
+                <span class="method-start">48408 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ClickOnMapSDK4iOSStarter</span>
+                <span class="method-start">48456 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyMapSDK4iOSStarterTitle</span>
+                <span class="method-start">54229 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyMapSDK4iOSStarterHeaderText</span>
+                <span class="method-start">55294 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">Exit</span>
+                <span class="method-start">55331 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">56063 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

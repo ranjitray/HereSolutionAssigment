@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[*******Screenshot captured for JSlinkClick*********]]>
+    </line>
+    <line>
+      <![CDATA[*******Screenshot captured for Mouse Hover and Click Android Lite Edition*********]]>
+    </line>
+    <line>
+      <![CDATA[*******Screenshot captured for Mouse Hover and Click Android Premium Edition*********]]>
+    </line>
+    <line>
+      <![CDATA[*******Screenshot captured for Mouse Hover and Click Android Starter Edition*********]]>
+    </line>
+    <line>
+      <![CDATA[*******Screenshot captured for Mouse Hover and Click iOS SDK Lite Edition*********]]>
+    </line>
+    <line>
+      <![CDATA[*******Screenshot captured for Mouse Hover and Click iOS SDK Premium Edition*********]]>
+    </line>
+    <line>
+      <![CDATA[*******Screenshot captured for Mouse Hover and Click iOS SDK Starter Edition*********]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-03-11T20:31:14Z" name="Default suite" finished-at="2020-03-11T20:31:56Z" duration-ms="42608">
+    <groups>
+    </groups>
+    <test started-at="2020-03-11T20:31:14Z" name="Default test" finished-at="2020-03-11T20:31:56Z" duration-ms="42608">
+      <class name="com.qa.TestCase.MapTest">
+        <test-method is-config="true" signature="ReportSetup()[pri:0, instance:com.qa.TestCase.MapTest@75f9eccc]" started-at="2020-03-11T20:31:00Z" name="ReportSetup" finished-at="2020-03-11T20:31:01Z" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportSetup -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.qa.TestCase.MapTest@75f9eccc]" started-at="2020-03-11T20:31:01Z" name="Setup" finished-at="2020-03-11T20:31:14Z" depends-on-methods="com.qa.BaseClass.BaseClass.ReportSetup" duration-ms="13300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="ClickOnJSLink()[pri:1, instance:com.qa.TestCase.MapTest@75f9eccc]" started-at="2020-03-11T20:31:14Z" name="ClickOnJSLink" description="Click on JS link under Intercative Maps section" finished-at="2020-03-11T20:31:17Z" duration-ms="3150" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[*******Screenshot captured for JSlinkClick*********]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ClickOnJSLink -->
+        <test-method signature="VerifyMapJSTitile()[pri:2, instance:com.qa.TestCase.MapTest@75f9eccc]" started-at="2020-03-11T20:31:17Z" name="VerifyMapJSTitile" description="Verify page title after clicking on JS link under Inteeractive Maps" finished-at="2020-03-11T20:31:17Z" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMapJSTitile -->
+        <test-method signature="VerifyMapJSHeaderText()[pri:3, instance:com.qa.TestCase.MapTest@75f9eccc]" started-at="2020-03-11T20:31:17Z" name="VerifyMapJSHeaderText" description="Verify page header Text aftet clicking on JS " finished-at="2020-03-11T20:31:17Z" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMapJSHeaderText -->
+        <test-method signature="ClickOnAndroidLite()[pri:4, instance:com.qa.TestCase.MapTest@75f9eccc]" started-at="2020-03-11T20:31:17Z" name="ClickOnAndroidLite" description="Clicking on SDK for Android Lite Edition" finished-at="2020-03-11T20:31:25Z" duration-ms="7470" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[*******Screenshot captured for Mouse Hover and Click Android Lite Edition*********]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ClickOnAndroidLite -->
+        <test-method signature="VerifyMapSDK4AndroidLiteTitle()[pri:5, instance:com.qa.TestCase.MapTest@75f9eccc]" started-at="2020-03-11T20:31:25Z" name="VerifyMapSDK4AndroidLiteTitle" description="Verify page title --Map SDK for Android Lite Edition" finished-at="2020-03-11T20:31:25Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMapSDK4AndroidLiteTitle -->
+        <test-method signature="VerifyMapSDK4AndroidHeaderText()[pri:6, instance:com.qa.TestCase.MapTest@75f9eccc]" started-at="2020-03-11T20:31:25Z" name="VerifyMapSDK4AndroidHeaderText" description="Verify header Text - SDK for Android Lite Edition " finished-at="2020-03-11T20:31:25Z" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMapSDK4AndroidHeaderText -->
+        <test-method signature="ClickOnMapSDK4AndroidPremium()[pri:7, instance:com.qa.TestCase.MapTest@75f9eccc]" started-at="2020-03-11T20:31:25Z" name="ClickOnMapSDK4AndroidPremium" description=" Click on SDK for Android (Premium Edition)" finished-at="2020-03-11T20:31:31Z" duration-ms="5691" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[*******Screenshot captured for Mouse Hover and Click Android Premium Edition*********]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ClickOnMapSDK4AndroidPremium -->
+        <test-method signature="VerifyMapSDK4AndroidPremiumTitle()[pri:8, instance:com.qa.TestCase.MapTest@75f9eccc]" started-at="2020-03-11T20:31:31Z" name="VerifyMapSDK4AndroidPremiumTitle" description="Verify the title of SDK Andriod Premium Edition " finished-at="2020-03-11T20:31:31Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMapSDK4AndroidPremiumTitle -->
+        <test-method signature="VerifyMapSDK4AndroidPremiumHeaderText()[pri:9, instance:com.qa.TestCase.MapTest@75f9eccc]" started-at="2020-03-11T20:31:31Z" name="VerifyMapSDK4AndroidPremiumHeaderText" description="Verify the Header Text of SDK Andriod Premium Edition " finished-at="2020-03-11T20:31:31Z" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMapSDK4AndroidPremiumHeaderText -->
+        <test-method signature="ClickOnMapSDK4AndroidStarter()[pri:10, instance:com.qa.TestCase.MapTest@75f9eccc]" started-at="2020-03-11T20:31:31Z" name="ClickOnMapSDK4AndroidStarter" description=" Click on Andriod SDK Starter Edition " finished-at="2020-03-11T20:31:36Z" duration-ms="5401" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[*******Screenshot captured for Mouse Hover and Click Android Starter Edition*********]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ClickOnMapSDK4AndroidStarter -->
+        <test-method signature="VerifyMapSDK4AndroidStarterTitle()[pri:11, instance:com.qa.TestCase.MapTest@75f9eccc]" started-at="2020-03-11T20:31:36Z" name="VerifyMapSDK4AndroidStarterTitle" description="Verify the title of SDK Andriod Starter Edition " finished-at="2020-03-11T20:31:36Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMapSDK4AndroidStarterTitle -->
+        <test-method signature="VerifyMapSDK4AndroidStarterHeaderText()[pri:12, instance:com.qa.TestCase.MapTest@75f9eccc]" started-at="2020-03-11T20:31:36Z" name="VerifyMapSDK4AndroidStarterHeaderText" description="Verify header text of SDK Andriod Starter " finished-at="2020-03-11T20:31:36Z" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMapSDK4AndroidStarterHeaderText -->
+        <test-method signature="ClickOnMapSDK4iOSLite()[pri:13, instance:com.qa.TestCase.MapTest@75f9eccc]" started-at="2020-03-11T20:31:36Z" name="ClickOnMapSDK4iOSLite" description=" Click on iOS SDK Lite Edition " finished-at="2020-03-11T20:31:41Z" duration-ms="5330" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[*******Screenshot captured for Mouse Hover and Click iOS SDK Lite Edition*********]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ClickOnMapSDK4iOSLite -->
+        <test-method signature="VerifyMapSDK4iOSLiteTitle()[pri:14, instance:com.qa.TestCase.MapTest@75f9eccc]" started-at="2020-03-11T20:31:41Z" name="VerifyMapSDK4iOSLiteTitle" description="Verify the title of SDK iOS Lite Edition " finished-at="2020-03-11T20:31:42Z" duration-ms="1093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMapSDK4iOSLiteTitle -->
+        <test-method signature="VerifyMapSDK4iOSLiteHeaderText()[pri:15, instance:com.qa.TestCase.MapTest@75f9eccc]" started-at="2020-03-11T20:31:42Z" name="VerifyMapSDK4iOSLiteHeaderText" description="Verify the Header Text of SDK iOS Lite Edition " finished-at="2020-03-11T20:31:42Z" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMapSDK4iOSLiteHeaderText -->
+        <test-method signature="ClickOnMapSDK4iOSPremium()[pri:16, instance:com.qa.TestCase.MapTest@75f9eccc]" started-at="2020-03-11T20:31:42Z" name="ClickOnMapSDK4iOSPremium" description=" Click on iOS SDK Premium Edition " finished-at="2020-03-11T20:31:48Z" duration-ms="5368" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[*******Screenshot captured for Mouse Hover and Click iOS SDK Premium Edition*********]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ClickOnMapSDK4iOSPremium -->
+        <test-method signature="VerifyMapSDK4iOSPremiumTitle()[pri:17, instance:com.qa.TestCase.MapTest@75f9eccc]" started-at="2020-03-11T20:31:48Z" name="VerifyMapSDK4iOSPremiumTitle" description="Verify the title of SDK iOS Premium Edition " finished-at="2020-03-11T20:31:49Z" duration-ms="1024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMapSDK4iOSPremiumTitle -->
+        <test-method signature="VerifyMapSDK4iOSPremiumHeaderText()[pri:18, instance:com.qa.TestCase.MapTest@75f9eccc]" started-at="2020-03-11T20:31:49Z" name="VerifyMapSDK4iOSPremiumHeaderText" description="Verify the Header Text of SDK iOS Premium Edition " finished-at="2020-03-11T20:31:49Z" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMapSDK4iOSPremiumHeaderText -->
+        <test-method signature="ClickOnMapSDK4iOSStarter()[pri:19, instance:com.qa.TestCase.MapTest@75f9eccc]" started-at="2020-03-11T20:31:49Z" name="ClickOnMapSDK4iOSStarter" description=" Click on iOS SDK Starter Edition " finished-at="2020-03-11T20:31:55Z" duration-ms="5772" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[*******Screenshot captured for Mouse Hover and Click iOS SDK Starter Edition*********]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ClickOnMapSDK4iOSStarter -->
+        <test-method signature="VerifyMapSDK4iOSStarterTitle()[pri:20, instance:com.qa.TestCase.MapTest@75f9eccc]" started-at="2020-03-11T20:31:55Z" name="VerifyMapSDK4iOSStarterTitle" description="Verify the title of SDK iOS Starter Edition " finished-at="2020-03-11T20:31:56Z" duration-ms="1064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMapSDK4iOSStarterTitle -->
+        <test-method signature="VerifyMapSDK4iOSStarterHeaderText()[pri:21, instance:com.qa.TestCase.MapTest@75f9eccc]" started-at="2020-03-11T20:31:56Z" name="VerifyMapSDK4iOSStarterHeaderText" description="Verify the Header Text of SDK iOS Starter Edition " finished-at="2020-03-11T20:31:56Z" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMapSDK4iOSStarterHeaderText -->
+        <test-method is-config="true" signature="Exit()[pri:0, instance:com.qa.TestCase.MapTest@75f9eccc]" started-at="2020-03-11T20:31:56Z" name="Exit" finished-at="2020-03-11T20:31:56Z" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Exit -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.qa.TestCase.MapTest@75f9eccc]" started-at="2020-03-11T20:31:57Z" name="endReport" finished-at="2020-03-11T20:31:57Z" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.qa.TestCase.MapTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
